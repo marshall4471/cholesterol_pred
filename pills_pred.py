@@ -60,7 +60,7 @@ from sklearn.metrics import f1_score
 
 model = RandomForestClassifier()
 
-model.fit(X,y)
+model.fit(X_train,y_train)
 
 y_pred = model.predict(X_test)
 
